@@ -29,7 +29,7 @@ assessmentButton.addEventListener(
     const anchor = document.createElement('a')
     const hrefValue = 
       'https://twitter.com/intent/tweet?button_hashtag=' +
-      encodeURIComponent('あなたのいいとこお教えします') +
+      encodeURIComponent('あなたのいいとこお教えします...') +
       '&ref_src=twsrc%5Etfw';
     anchor.setAttribute('href', hrefValue);
     anchor.setAttribute('class', "twitter-hashtag-button");
